@@ -1,8 +1,9 @@
+import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
 
 const About = () => {
     return (
         <div>
-            <h1>This is About page</h1>
+            <PrimaryTitle first={'About'} last={'Me'}></PrimaryTitle>
         </div>
     );
 };
