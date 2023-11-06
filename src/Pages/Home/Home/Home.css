@@ -1,0 +1,9 @@
+.pro{
+    position: fixed;
+    top: -5%;
+    left: 0%;
+    transform: rotate(-15deg);
+    background-color: #0788FF;
+    height: 200%;
+    width: 25%;
+}

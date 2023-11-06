@@ -21,7 +21,7 @@ const Sidebar = () => {
             {/* sidebar center */}
             <div className='flex gap-8 flex-col items-end'>
                 <ActiveRoute to={'/'} >
-                    <p className='hidden group-hover:flex group-hover:transition duration-1000'>Home</p>
+                    <p className='hidden group-hover:flex hover:transition duration-1000'>Home</p>
                     <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
                 </ActiveRoute>
                 <ActiveRoute to={'/about'}>
