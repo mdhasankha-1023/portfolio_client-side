@@ -2,6 +2,7 @@ import React from 'react';
 import pic from '../../../assets/pic.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import PrimaryBtn from '../../../Components/PrimaryBtn/PrimaryBtn';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const ProText = () => {
     return (
@@ -24,7 +25,7 @@ const ProText = () => {
                     repeat={Infinity}
                 />
                 <p className='text-justify w-[80%] my-10 tracking-wide leading-10 text-xl'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
-                <PrimaryBtn text={'More About Me'}></PrimaryBtn>
+                <PrimaryBtn icon={faArrowRight} typeValue={'button'} text={'More About Me'}></PrimaryBtn>
 
             </div>
         </div>
