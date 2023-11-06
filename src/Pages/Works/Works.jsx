@@ -1,8 +1,9 @@
+import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
 
 const Works = () => {
     return (
         <div>
-            <h1>This is Works page</h1>            
+            <PrimaryTitle first={'My'} last={'Portfolio'}></PrimaryTitle>
         </div>
     );
 };

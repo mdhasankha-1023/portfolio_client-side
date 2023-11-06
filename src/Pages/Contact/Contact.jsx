@@ -1,8 +1,9 @@
+import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
 
 const Contact = () => {
     return (
         <div>
-            <h1>This is Contact page</h1>
+           <PrimaryTitle first={'Get in'} last={'Touch'}></PrimaryTitle>
         </div>
     );
 };
