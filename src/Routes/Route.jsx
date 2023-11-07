@@ -22,7 +22,8 @@ import About from "../Pages/About/About";
             },
             {
                 path: '/works',
-                element: <Works></Works>
+                element: <Works></Works>,
+                loader: ()=> fetch('https://portfolio-server-side-mdhasankhan-123.vercel.app/projects')
             },
             {
                 path: '/contact',
