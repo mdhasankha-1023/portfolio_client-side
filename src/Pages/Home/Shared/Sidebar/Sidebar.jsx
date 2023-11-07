@@ -7,9 +7,8 @@ const Sidebar = () => {
     const [clicked, setClicked] = useState(false)
 
     return (
-        <div className='fixed right-4 top-8 flex flex-col justify-between items-end gap-16 text-2xl text-white z-50'>
-            {/* sidebar start */}
-            <div className='cursor-pointer p-4 rounded-full bg-[#757575]'>
+        <div>
+            <div className='fixed flex top-8 right-4 cursor-pointer p-4 rounded-full bg-[#757575]'>
                 {
                     clicked ?
                         <FontAwesomeIcon onClick={() => setClicked(false)} icon={faMoon}></FontAwesomeIcon>
@@ -17,25 +16,27 @@ const Sidebar = () => {
                         <FontAwesomeIcon onClick={() => setClicked(true)} icon={faSun}></FontAwesomeIcon>
                 }
             </div>
+            <div className='fixed bottom-0 py-2 lg:py-0 lg:right-4 lg:top-40 text-2xl text-white z-50 w-full lg:w-0 bg-gray-700 lg:inline-block'>
 
-            {/* sidebar center */}
-            <div className='flex gap-8 flex-col items-end'>
-                <ActiveRoute to={'/'} >
-                    <p className='hidden group-hover:flex hover:transition duration-1000'>Home</p>
-                    <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
-                </ActiveRoute>
-                <ActiveRoute to={'/about'}>
-                    <p className='hidden group-hover:flex'>About</p>
-                    <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
-                </ActiveRoute>
-                <ActiveRoute to={'/works'}>
-                    <p className='hidden group-hover:flex'>Works</p>
-                    <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon>
-                </ActiveRoute>
-                <ActiveRoute to={'/contact'}>
-                    <p className='hidden group-hover:flex'>Contact</p>
-                    <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                </ActiveRoute>
+                {/* sidebar center */}
+                <div className='flex gap-8 lg:flex-col justify-around lg:items-end'>
+                    <ActiveRoute to={'/'} >
+                        <p className='hidden group-hover:flex hover:transition duration-1000'>Home</p>
+                        <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
+                    </ActiveRoute>
+                    <ActiveRoute to={'/about'}>
+                        <p className='hidden group-hover:flex'>About</p>
+                        <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+                    </ActiveRoute>
+                    <ActiveRoute to={'/works'}>
+                        <p className='hidden group-hover:flex'>Works</p>
+                        <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon>
+                    </ActiveRoute>
+                    <ActiveRoute to={'/contact'}>
+                        <p className='hidden group-hover:flex'>Contact</p>
+                        <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                    </ActiveRoute>
+                </div>
             </div>
         </div>
     );

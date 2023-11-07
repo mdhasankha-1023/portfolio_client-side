@@ -25,7 +25,7 @@ const ProText = () => {
                     style={{ fontSize: '3em', color: '#0788FF', fontWeight: 700 }}
                     repeat={Infinity}
                 />
-                <p className='text-center lg:text-justify w-[80%] my-10 tracking-wide leading-10 text-xl'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                <p className='text-center lg:text-justify w-full lg:w-[80%] my-10 tracking-wide leading-10 text-xl'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                 <Link to={'/about'}>
                     <PrimaryBtn icon={faArrowRight} typeValue={'button'} text={'More About Me'}></PrimaryBtn>
                 </Link>
