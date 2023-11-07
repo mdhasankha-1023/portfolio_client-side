@@ -1,5 +1,6 @@
 import ContactForm from "../../Components/ContactForm/ContactForm";
 import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
+import SocialMedia from "../../Components/SocialMedia/SocialMedia";
 import location from '../../assets/Animation_Icons/location.gif'
 import mail from '../../assets/Animation_Icons/mail.gif'
 import phone from '../../assets/Animation_Icons/phone.gif'
@@ -41,6 +42,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    <SocialMedia></SocialMedia>
                 </div>
                 <div className="w-full lg:w-[60%] p-4">
                     <ContactForm></ContactForm>

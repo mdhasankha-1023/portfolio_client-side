@@ -35,18 +35,6 @@ const About = () => {
                             <p className='font-bold text-xl text-gray-300'>Dhaka, Bangladesh</p>
                         </div>
 
-                        {/* phone */}
-                        <div className="flex flex-col gap-1">
-                            <span className="text-xl text-gray-400">Phone:</span>
-                            <p className='font-bold text-xl text-gray-300'>+880 1646448338</p>
-                        </div>
-
-                        {/* email */}
-                        <div className="flex flex-col gap-1">
-                            <span className="text-xl text-gray-400">Email:</span>
-                            <p className='font-bold text-xl text-gray-300 text-clip'>mdhasankha.wd@gmail.com</p>
-                        </div>
-
                         {/* language */}
                         <div className="flex flex-col gap-1">
                             <span className="text-xl text-gray-400">language:</span>
