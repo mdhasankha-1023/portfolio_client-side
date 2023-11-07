@@ -7,11 +7,9 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 
 const TabItems = ({ projects }) => {
 
-    console.log(projects);
-
     return (
         <Tabs >
-            <TabList className={'flex justify-center gap-10'}>
+            <TabList className={'flex lg:justify-center justify-start flex-wrap lg:gap-10 gap-6 pb-12 px-4'}>
                 <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>All</Tab>
                 <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>JavaScript</Tab>
                 <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>React</Tab>
@@ -22,7 +20,7 @@ const TabItems = ({ projects }) => {
 
             {/* all content */}
             <TabPanel>
-                <div className='grid grid-cols-3 gap-8 my-10'>
+                <div className='grid grid-cols-1 mx-4 lg:grid-cols-3 gap-8 lg:py-10'>
                     {
                         projects.map(project =>
                             <ProjectCard

@@ -16,24 +16,24 @@ const ProjectCard = ({ project }) => {
             title: "<h1 class='font-bold text-[#0788FF] uppercase'>JavaScript Project</h1>",
             background:'#252525',
             html: `
-                    <div class='grid grid-cols-2 gap-y-4 text-center my-8 mx-auto text-white'>
+                    <div class='grid grid-cols-1 lg:grid-cols-2 gap-y-4 text-center my-8 mx-auto text-white'>
                             <div class="flex items-center gap-3">
-                            <i class="fa-regular fa-file-lines"></i>                                <h5>Project:</h5>
+                            <i class="fa-regular fa-file-lines"></i>                                <span>Project:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
                             <i class="fa-solid fa-file-signature"></i>
-                                <h5>Project Name:</h5>
+                                <span>Project Name:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
                             <i class="fa-solid fa-code"></i>
-                                <h5>Language:</h5>
+                                <span>Language:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                <h5>Preview:</h5>
+                                <span>Preview:</span>
                                 <span>
                                     <a class='underline uppercase text-[#0788FF] font-bold' href='${livePreviewLink}' target='_blank'>
                                     Live
