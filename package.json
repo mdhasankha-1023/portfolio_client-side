@@ -25,8 +25,8 @@
     "react-skills": "^1.27.0",
     "react-tabs": "^6.0.2",
     "react-type-animation": "^3.2.0",
-    "sort-by": "^1.2.0",
-    "sweetalert2": "^11.9.0"
+    "sort-by": "^0.0.2",
+    "sweetalert2": "^11.6.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

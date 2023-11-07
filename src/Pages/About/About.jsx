@@ -1,8 +1,17 @@
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import PrimaryBtn from "../../Components/PrimaryBtn/PrimaryBtn";
 import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
+import Skills from "../../Components/Skills/Skills";
+import resume from '../../assets/resume/Resume_of_Md_Hasan_kha.pdf'
 
 const About = () => {
+
+    // handle download resume btn
+
+
+
     return (
-        <div className="bg-[#1F1F1F] h-[100vh]">
+        <div className="bg-[#1F1F1F] h-[200%]">
             <PrimaryTitle first={'About'} last={'Me'}></PrimaryTitle>
             <div className="flex text-white">
                 <div className="w-[35%] px-4">
@@ -33,13 +42,23 @@ const About = () => {
                             <p>English, Bangla</p>
                         </div>
                     </div>
+                    <div className="flex justify-start items-center mt-16">
+                        <a  href={resume}>
+                            <PrimaryBtn text={'Download Resume'} icon={faDownload}>
+                            </PrimaryBtn>
+                        </a>
+
+                    </div>
                 </div>
                 <div className="w-[65%]">
                     <p className="text-justify p-4">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                 </div>
             </div>
-            <div className="my-10 text-white">
+            <div className="py-20 text-white">
                 <h1 className="text-center text-3xl uppercase">My Skills</h1>
+                <div className="w-[50%] mx-auto my-10">
+                    <Skills></Skills>
+                </div>
             </div>
         </div>
     );
