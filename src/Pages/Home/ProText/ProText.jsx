@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const ProText = () => {
     return (
-        <div className='w-full bg-[#1F1F1F] h-[100vh] z-90'>
+        <div className='h-[100vh] z-90'>
             <div className='w-[30%] h-[80%]  fixed left-[5%] top-[10%] rounded-xl hidden lg:flex'>
                 <img className='h-full w-full rounded-xl' src={pic} alt="" />
             </div>

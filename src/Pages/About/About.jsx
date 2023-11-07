@@ -11,7 +11,7 @@ const About = () => {
 
 
     return (
-        <div className="bg-[#1F1F1F] h-[200%]">
+        <div className="bg-[#1F1F1F]">
             <PrimaryTitle first={'About'} last={'Me'}></PrimaryTitle>
             <div className="flex flex-col lg:flex-row text-white">
                 <div className="lg:w-[40%] w-full px-4">

@@ -3,7 +3,7 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="w-full">
+        <div>
             <div className="pro hidden lg:flex"></div>
             <ProText></ProText>
         </div>
