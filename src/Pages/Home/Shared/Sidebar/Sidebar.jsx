@@ -8,7 +8,7 @@ const Sidebar = () => {
 
     return (
         <div>
-            <div className='fixed flex top-8 right-4 cursor-pointer p-4 rounded-full bg-[#757575]'>
+            <div className='fixed flex top-8 right-4 cursor-pointer p-4 rounded-full bg-[#757575] text-2xl'>
                 {
                     clicked ?
                         <FontAwesomeIcon onClick={() => setClicked(false)} icon={faMoon}></FontAwesomeIcon>
