@@ -21,12 +21,12 @@ const ContactForm = () => {
     return (
 
         <form onSubmit={handleContactForm}>
-            <div className='flex gap-10 mb-10'>
-                <div className="w-[50%]">
+            <div className='flex flex-col lg:flex-row gap-10 mb-10'>
+                <div className="w-full lg:w-[50%]">
                     {/* Name */}
                     <input type="text" name='name' className="shadow-sm bg-[#252525] border-none text-white text-sm rounded-full w-full rounded-full py-4 px-6 text-xl  px-6 text-xl" placeholder="YOUR NAME" required />
                 </div>
-                <div className="w-[50%]">
+                <div className="w-full lg:w-[50%]">
                     {/* Email */}
                     <input type='email' name='email' placeholder='YOUR EMAIL' className="shadow-sm border-none bg-[#252525] text-white rounded-full w-full py-4 px-6 text-xl " required />
                 </div>

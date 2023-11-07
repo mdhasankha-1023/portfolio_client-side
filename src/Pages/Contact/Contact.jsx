@@ -18,8 +18,8 @@ const Contact = () => {
                                 <img className="w-full h-ful" src={location} alt="" />
                             </figure>
                             <div>
-                                <label class="block mb-2 text-sm font-medium text-white">Address Point</label>
-                                <p>TODO:</p>
+                                <label class="block mb-2 text-sm font-medium text-white">Address Point:</label>
+                                <p>East Rajarbag Kalibari, Basabo, Dhaka-1214</p>
                             </div>
                         </div>
                         <div className="flex gap-4 items-center">
@@ -27,8 +27,8 @@ const Contact = () => {
                                 <img className="w-full h-ful" src={mail} alt="" />
                             </figure>
                             <div>
-                                <label class="block mb-2 text-sm font-medium text-white">Address Point</label>
-                                <p>TODO:</p>
+                                <label class="block mb-2 text-sm font-medium text-white">Email Address:</label>
+                                <p>mdhadankha.wd@gamil.com</p>
                             </div>
                         </div>
                         <div className="flex gap-4 items-center">
@@ -36,8 +36,8 @@ const Contact = () => {
                                 <img className="w-full h-ful" src={phone} alt="" />
                             </figure>
                             <div>
-                                <label class="block mb-2 text-sm font-medium text-white">Address Point</label>
-                                <p>TODO:</p>
+                                <label class="block mb-2 text-sm font-medium text-white">Phone:</label>
+                                <p>+880 1646448338</p>
                             </div>
                         </div>
                     </div>
