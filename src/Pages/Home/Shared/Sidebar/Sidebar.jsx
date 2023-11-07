@@ -7,7 +7,7 @@ const Sidebar = () => {
     const [clicked, setClicked] = useState(false)
 
     return (
-        <div className='fixed right-4 flex flex-col justify-between items-end gap-16 text-2xl text-white z-50'>
+        <div className='fixed right-4 top-8 flex flex-col justify-between items-end gap-16 text-2xl text-white z-50'>
             {/* sidebar start */}
             <div className='cursor-pointer p-4 rounded-full bg-[#757575]'>
                 {
