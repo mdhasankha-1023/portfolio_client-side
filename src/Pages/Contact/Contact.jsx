@@ -1,6 +1,7 @@
 import ContactForm from "../../Components/ContactForm/ContactForm";
 import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
 import SocialMedia from "../../Components/SocialMedia/SocialMedia";
+import WebTitle from "../../Components/WebTitle/WebTitle";
 import location from '../../assets/Animation_Icons/location.gif'
 import mail from '../../assets/Animation_Icons/mail.gif'
 import phone from '../../assets/Animation_Icons/phone.gif'
@@ -8,6 +9,7 @@ import phone from '../../assets/Animation_Icons/phone.gif'
 const Contact = () => {
     return (
         <div className="bg-[#1F1F1F] h-[100%]">
+            <WebTitle title={'Contact'}></WebTitle>
             <PrimaryTitle first={'Get in'} last={'Touch'}></PrimaryTitle>
             <div className="flex flex-col lg:flex-row gap-8 z-90">
                 <div className="w-full lg:w-[40%] p-4">

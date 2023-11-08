@@ -3,6 +3,7 @@ import PrimaryBtn from "../../Components/PrimaryBtn/PrimaryBtn";
 import PrimaryTitle from "../../Components/PrimaryTitle/PrimaryTitle";
 import Skills from "../../Components/Skills/Skills";
 import resume from '../../assets/resume/Resume_of_Md_Hasan_kha.pdf'
+import WebTitle from "../../Components/WebTitle/WebTitle";
 
 const About = () => {
 
@@ -12,6 +13,7 @@ const About = () => {
 
     return (
         <div className="bg-[#1F1F1F]">
+            <WebTitle title={'About'}></WebTitle>
             <PrimaryTitle first={'About'} last={'Me'}></PrimaryTitle>
             <div className="flex flex-col lg:flex-row text-white">
                 <div className="lg:w-[40%] w-full px-4">
