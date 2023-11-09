@@ -17,7 +17,7 @@ const About = () => {
             <PrimaryTitle first={'About'} last={'Me'}></PrimaryTitle>
             <div className="flex flex-col lg:flex-row text-white">
                 <div className="lg:w-[40%] w-full px-4">
-                    <h1 className="text-stat text-4xl font-bold mb-10">Personal Infos</h1>
+                    <h1 className="text-stat text-4xl font-bold mb-10 text-[#00F3A1]">Personal Infos</h1>
                     <div className="grid grid-cols-2 gap-12 overflow-hidden">
                         {/* name */}
                         <div className="flex flex-col gap-1">
@@ -57,7 +57,7 @@ const About = () => {
                 </div>
             </div>
             <div className="py-20 text-white">
-                <h1 className="text-center text-4xl uppercase">My Skills</h1>
+                <h1 className="text-center text-4xl uppercase text-[#00F3A1]">My Skills</h1>
                 <div className="w-full lg:w-[50%] px-4 mx-auto my-10">
                     <Skills></Skills>
                 </div>

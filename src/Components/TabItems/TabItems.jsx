@@ -10,12 +10,12 @@ const TabItems = ({ projects }) => {
     return (
         <Tabs >
             <TabList className={'flex lg:justify-center justify-start flex-wrap lg:gap-10 gap-6 pb-12 px-4'}>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>All</Tab>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>JavaScript</Tab>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>React</Tab>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>Redux</Tab>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>Next.js</Tab>
-                <Tab className={'tab border-none cursor-pointer text-lg font-bold hover:text-[#0788FF] text-white active:bg-black'}>TypeScript</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>All</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>JavaScript</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>React</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>Redux</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>Next.js</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>TypeScript</Tab>
             </TabList>
 
             {/* all content */}

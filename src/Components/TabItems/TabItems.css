@@ -1,6 +1,8 @@
 .tab.react-tabs__tab--selected{
- background-color: #1F1F1F;
- color: #0788FF;
- border-bottom: 1px solid #0788FF;
- padding-bottom: 7px;
+    /* bg-gradient-to-r from-[#37F5F4] to-[#33F5B3] */
+ background: linear-gradient(to right, #37F5F4 , #33F5B3 ) ;
+ color: white;
+ outline: none;
+ border-radius: 8px;
+ border: 1px solid #33F5B3;
 }
