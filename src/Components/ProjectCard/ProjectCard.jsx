@@ -13,29 +13,29 @@ const ProjectCard = ({ project }) => {
     // handle project card
     const handleProjectCard = () => {
         Swal.fire({
-            title: "<h1 class='font-bold text-[#0788FF] uppercase'>JavaScript Project</h1>",
-            background: '#252525',
+            title: "<h1 class='font-bold text-[#00F3A1] uppercase'>JavaScript Project</h1>",
+            background: '#040C18',
             html: `
                     <div class='grid grid-cols-1 lg:grid-cols-2 gap-y-4 text-center my-8 mx-auto text-white'>
                             <div class="flex items-center gap-3">
-                            <i class="fa-regular fa-file-lines"></i>                                <span>Project:</span>
+                            <i class="fa-regular text-[#00F3A1] r fa-file-lines"></i>                                <span>Project:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-file-signature"></i>
+                            <i class="fa-solid  text-[#00F3A1] fa-file-signature"></i>
                                 <span>Project Name:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-code"></i>
+                            <i class="fa-solid  text-[#00F3A1] fa-code"></i>
                                 <span>Language:</span>
                                 <span>Learnbased website</span>
                             </div>
                             <div class="flex items-center gap-3">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <i class="fa-solid  text-[#00F3A1] fa-arrow-up-right-from-square"></i>
                                 <span>Preview:</span>
                                 <span>
-                                    <a class='underline uppercase text-[#0788FF] font-bold' href='${livePreviewLink}' target='_blank'>
+                                    <a class='underline uppercase text-[#00F3A1] font-bold' href='${livePreviewLink}' target='_blank'>
                                     Live
                                     </a>
                                 </span>
@@ -61,7 +61,7 @@ const ProjectCard = ({ project }) => {
                     <img className='w-full rounded-lg' src={projectPic} alt="" />
                     <div className='hidden flex absolute top-0 w-full h-[95%] items-center justify-center opacity-60 bg-gradient-to-r from-[#37F5F4] to-[#33F5B3] rounded-lg group-hover:flex text-white text-lg font-bold transition duration-1000'>JavaScript</div>
                 </figure>
-                <div className='w-full h-[40%] border-t border-t-[#33F5B3] pt-4 flex justify-between'>
+                <div className='w-full h-[40%] border-t-2 border-t-[#33F5B3] pt-4 flex justify-between'>
                     <div className='flex flex-col items-start gap-1'>
                         <h6 className='text-[#76A6A5]'>javaScript</h6>
                         <h3 className='text-2xl font-bolder text-[#00F3A1]'>{projectName}</h3>
