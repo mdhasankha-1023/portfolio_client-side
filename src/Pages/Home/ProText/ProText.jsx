@@ -15,9 +15,9 @@ const ProText = () => {
                 <h1 className='text-[3em] font-bold uppercase'>I am Hasan kha </h1>
                 <TypeAnimation
                     sequence={[
-                        'Front-end Developer',
+                        'Front-End Developer',
                         1000,
-                        'MERN stack Developer',
+                        'MERN Stack Developer',
                         1000,
                     ]}
                     speed={20}

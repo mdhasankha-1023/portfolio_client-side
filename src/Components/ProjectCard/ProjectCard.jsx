@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
     const handleProjectCard = () => {
         Swal.fire({
             title: "<h1 class='font-bold text-[#0788FF] uppercase'>JavaScript Project</h1>",
-            background:'#252525',
+            background: '#252525',
             html: `
                     <div class='grid grid-cols-1 lg:grid-cols-2 gap-y-4 text-center my-8 mx-auto text-white'>
                             <div class="flex items-center gap-3">
@@ -55,11 +55,20 @@ const ProjectCard = ({ project }) => {
 
 
     return (
-        <div className='cursor-pointer relative group'>
-            <figure className='w-full'>
-                <img className='w-full rounded-lg' src={projectPic} alt="" />
-            </figure>
-            <div onClick={handleProjectCard} className='hidden flex absolute top-0 w-full h-full items-center justify-center bg-[#0788FF] rounded-lg group-hover:flex text-white text-lg font-bold transition duration-1000'>JavaScript</div>
+        <div className='cursor-pointer text-white'>
+            <div className='flex flex-col justify-center items-center p-4 border border-[#33F5B3] rounded-lg'>
+                <figure className='w-full h-[60%] pb-4 relative group'>
+                    <img className='w-full rounded-lg' src={projectPic} alt="" />
+                    <div className='hidden flex absolute top-0 w-full h-[95%] items-center justify-center opacity-60 bg-gradient-to-r from-[#37F5F4] to-[#33F5B3] rounded-lg group-hover:flex text-white text-lg font-bold transition duration-1000'>JavaScript</div>
+                </figure>
+                <div className='w-full h-[40%] border-t border-t-[#33F5B3] pt-4 flex justify-between'>
+                    <div className='flex flex-col items-start gap-1'>
+                        <h6 className='text-[#76A6A5]'>javaScript</h6>
+                        <h3 className='text-2xl font-bolder text-[#00F3A1]'>{projectName}</h3>
+                    </div>
+                    <button onClick={handleProjectCard} type="button" class="text-white border border-[#33F5B3] hover:bg-gradient-to-r from-[#37F5F4] to-[#33F5B3] outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">More Details</button>
+                </div>
+            </div>
         </div>
     );
 };
