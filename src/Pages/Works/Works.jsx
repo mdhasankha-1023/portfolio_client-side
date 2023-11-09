@@ -7,7 +7,7 @@ const Works = () => {
     const projects = useLoaderData();
 
     return (
-        <div className="bg-[#1F1F1F] h-[100%]">
+        <div className="bg-[#040C18] h-[100%]">
             <WebTitle title={'Works'}></WebTitle>
             <PrimaryTitle first={'My'} last={'Portfolio'}></PrimaryTitle>
             <div className="text-center">
