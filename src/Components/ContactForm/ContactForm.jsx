@@ -21,23 +21,23 @@ const ContactForm = () => {
     return (
 
         <form onSubmit={handleContactForm}>
-            <div className='flex flex-col lg:flex-row gap-10 mb-10'>
+            <div className='flex flex-col lg:flex-row gap-10 my-10'>
                 <div className="w-full lg:w-[50%]">
                     {/* Name */}
-                    <input type="text" name='name' className="shadow-sm bg-[#252525] border-none text-white text-sm rounded-full w-full rounded-full py-4 px-6 text-xl  px-6 text-xl" placeholder="YOUR NAME" required />
+                    <input type="text" name='name' className="nameInput shadow-sm bg-[#040C18] border border-[#33F5B3] text-white text-sm rounded-full w-full rounded-full py-4 px-6 text-xl px-6 focus:ring-[#33F5B3] focus:border-[#33F5B3] appearance-none" placeholder="YOUR NAME" required />
                 </div>
                 <div className="w-full lg:w-[50%]">
                     {/* Email */}
-                    <input type='email' name='email' placeholder='YOUR EMAIL' className="shadow-sm border-none bg-[#252525] text-white rounded-full w-full py-4 px-6 text-xl " required />
+                    <input type='email' name='email' placeholder='YOUR EMAIL' className="shadow-sm border border-[#33F5B3] bg-[#040C18] text-white rounded-full w-full py-4 px-6 text-xl focus:ring-[#33F5B3] focus:border-[#33F5B3]" required />
                 </div>
             </div>
             <div className="mb-10">
                 {/* subject */}
-                <input type="text" name='subject' placeholder='YOUR SUBJECT' className="shadow-sm border-none bg-[#252525] text-white w-full rounded-full py-4 px-6 text-xl " required />
+                <input type="text" name='subject' placeholder='YOUR SUBJECT' className="shadow-sm border border-[#33F5B3] bg-[#040C18] text-white w-full rounded-full py-4 px-6 text-xl focus:ring-[#33F5B3] focus:border-[#33F5B3]" required />
             </div>
             <div className='mb-10'>
                 {/* Message */}
-                <textarea id="message" name='message' rows="6" className="block w-full text-xl text-white border-none bg-[#252525] rounded-2xl py-4 px-6" placeholder="YOUR MESSAGE..." required></textarea>
+                <textarea id="message" name='message' rows="6" className="block w-full text-xl text-white border border-[#33F5B3] bg-[#040C18] rounded-2xl py-4 px-6 focus:ring-[#33F5B3] focus:border-[#33F5B3]" placeholder="YOUR MESSAGE..." required></textarea>
             </div>
             <PrimaryBtn icon={faPaperPlane} text={'Message Me'} typeValue={'submit'}></PrimaryBtn>
         </form>
