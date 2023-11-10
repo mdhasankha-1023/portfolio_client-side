@@ -10,12 +10,12 @@ const TabItems = ({ projects }) => {
     return (
         <Tabs >
             <TabList className={'flex lg:justify-center justify-start flex-wrap lg:gap-10 gap-6 pb-12 px-4'}>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>All</Tab>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>JavaScript</Tab>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>React</Tab>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>Redux</Tab>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>Next.js</Tab>
-                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-lg font-bold text-white px-8 py-2 rounded-lg bg-[#040C18]'}>TypeScript</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>All</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>JavaScript</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>React</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>Redux</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>Next.js</Tab>
+                <Tab className={'tab border border-[#33F5B3] cursor-pointer text-md lg:text-lg font-bold text-white lg:px-8 px-4 py-2 rounded-lg bg-[#040C18]'}>TypeScript</Tab>
             </TabList>
 
             {/* all content */}

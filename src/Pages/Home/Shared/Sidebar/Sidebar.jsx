@@ -21,19 +21,19 @@ const Sidebar = () => {
                 {/* sidebar center */}
                 <div className='flex gap-8 lg:flex-col justify-around lg:items-end'>
                     <ActiveRoute to={'/'} >
-                        <p className='hidden group-hover:flex hover:transition duration-1000'>Home</p>
+                        <p className='hidden group-hover:lg:flex hover:transition duration-1000'>Home</p>
                         <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
                     </ActiveRoute>
                     <ActiveRoute to={'/about'}>
-                        <p className='hidden group-hover:flex'>About</p>
+                        <p className='hidden group-hover:lg:flex'>About</p>
                         <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
                     </ActiveRoute>
                     <ActiveRoute to={'/works'}>
-                        <p className='hidden group-hover:flex'>Works</p>
+                        <p className='hidden group-hover:lg:flex'>Works</p>
                         <FontAwesomeIcon icon={faBriefcase}></FontAwesomeIcon>
                     </ActiveRoute>
                     <ActiveRoute to={'/contact'}>
-                        <p className='hidden group-hover:flex'>Contact</p>
+                        <p className='hidden group-hover:lg:flex'>Contact</p>
                         <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                     </ActiveRoute>
                 </div>
