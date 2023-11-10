@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 
 const ProText = () => {
     return (
-        <div className='h-[100vh] z-90'>
+        <div className='h-[100vh] z-90 px-4'>
             <div className='w-[35%] h-[88%]  fixed left-[3%] top-[6%] rounded-xl hidden lg:flex drop-shadow-lg'>
                 <img className='h-full w-full rounded-xl' src={pic} alt="" />
             </div>
             <div className='w-[100%] h-full text-white flex flex-col items-center lg:items-start lg:pl-[42%] justify-center'>
-                <h1 className='text-[3em] font-bold uppercase'>I am Hasan kha </h1>
+                <h1 className='text-3xl lg:text-4xl font-bold uppercase'>I'm Hasan kha </h1>
                 <TypeAnimation
                     sequence={[
                         'Front-End Developer',
@@ -21,10 +21,10 @@ const ProText = () => {
                         1000,
                     ]}
                     speed={20}
-                    style={{ fontSize: '3em', color: '#00F3A1', fontWeight: 700 }}
+                    className='text-3xl lg:text-4xl font-bold text-[#00F3A1] leading-loose'
                     repeat={Infinity}
                 />
-                <p className='text-center lg:text-justify w-full lg:w-[80%] my-10 tracking-wide leading-10 text-xl text-[#76A6A5]'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                <p className='text-center lg:text-justify w-full lg:w-[80%] my-10 tracking-wide leading-10 text-lg lg:text-xl text-[#76A6A5]'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                 <Link to={'/about'}>
                     <PrimaryBtn icon={faArrowRight} typeValue={'button'} text={'More About Me'}></PrimaryBtn>
                 </Link>

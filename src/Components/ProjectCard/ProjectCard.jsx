@@ -64,7 +64,7 @@ const ProjectCard = ({ project }) => {
                 <div className='w-full h-[40%] border-t-2 border-t-[#33F5B3] pt-4 flex justify-between'>
                     <div className='flex flex-col items-start gap-1'>
                         <h6 className='text-[#76A6A5]'>javaScript</h6>
-                        <h3 className='text-2xl font-bolder text-[#00F3A1]'>{projectName}</h3>
+                        <h3 className='text-lg lg:text-2xl font-bolder text-[#00F3A1]'>{projectName}</h3>
                     </div>
                     <button onClick={handleProjectCard} type="button" class="text-white border border-[#33F5B3] hover:bg-gradient-to-r from-[#37F5F4] to-[#33F5B3] outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">More Details</button>
                 </div>

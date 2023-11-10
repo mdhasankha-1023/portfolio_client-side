@@ -9,13 +9,13 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className="cnBg bg-[#040C18] h-[100%] pb-16">
+        <div className="cnBg bg-[#040C18] h-[100%] pb-16 lg:pb-0">
             <WebTitle title={'Contact'}></WebTitle>
             <PrimaryTitle first={'Get in'} last={'Touch'}></PrimaryTitle>
             <div className="flex flex-col lg:flex-row gap-8 z-90 mb-20">
-                <div className="w-full lg:w-[40%] px-8">
-                    <h1 className="text-white text-4xl text-start uppercase">Don't be Shy!</h1>
-                    <p className="text-[#76A6A5] text-lg text-justify my-6">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <div className="w-full lg:w-[40%] px-8 my-2 lg:my-8">
+                    <h1 className="text-white text-3xl lg:text-4xl text-start uppercase">Don't be Shy!</h1>
+                    <p className="text-[#76A6A5] text-md lg:text-lg text-justify my-6">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                     <div className="flex gap-8 flex-col text-white">
                         <div className="flex gap-4 items-center">
                             <figure className="w-[20%]">
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                     <SocialMedia></SocialMedia>
                 </div>
-                <div className="w-full lg:w-[60%] p-4">
+                <div className="w-full lg:w-[60%] p-4 my-2 lg:mt-10">
                     <ContactForm></ContactForm>
                 </div>
             </div>

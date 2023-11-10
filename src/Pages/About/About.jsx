@@ -53,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-[60%]">
-                    <p className="text-justify px-4 lg:pr-24 leading-8 text-xl tracking-wider text-[#76A6A5]">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                    <p className="text-justify px-4 mt-8 lg:mt-0 lg:pr-24 leading-8 text-xl tracking-wider text-[#76A6A5]">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                 </div>
             </div>
             <div className="py-20 text-white">
