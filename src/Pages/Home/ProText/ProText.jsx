@@ -4,6 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import PrimaryBtn from '../../../Components/PrimaryBtn/PrimaryBtn';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import avatar_pic from '../../../assets/personal_pic/avatar_pic.jpg'
 
 const ProText = () => {
     return (
@@ -12,7 +13,10 @@ const ProText = () => {
                 <img className='h-full w-full rounded-xl' src={pic} alt="" />
             </div>
             <div className='w-[100%] h-full text-white flex flex-col items-center lg:items-start lg:pl-[42%] justify-center'>
-                <h1 className='text-3xl lg:text-4xl font-bold uppercase'>I'm Hasan kha </h1>
+                <div className='flex justify-center lg:hidden'>
+                    <img class="rounded-full w-[90%] h-38 flex justify-center border-4 border-[#757575]" src={avatar_pic} alt="Extra large avatar" />
+                </div>
+                <h1 className='text-3xl lg:text-4xl font-bold uppercase mt-6 lg:mt-0'>I'm Hasan kha </h1>
                 <TypeAnimation
                     sequence={[
                         'Front-End Developer',
