@@ -9,10 +9,10 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className="cnBg bg-[#040C18] h-[100%] my-10">
+        <div className="cnBg bg-[#040C18] h-[100%] pb-16">
             <WebTitle title={'Contact'}></WebTitle>
             <PrimaryTitle first={'Get in'} last={'Touch'}></PrimaryTitle>
-            <div className="flex flex-col lg:flex-row gap-8 z-90 my-16">
+            <div className="flex flex-col lg:flex-row gap-8 z-90 mb-20">
                 <div className="w-full lg:w-[40%] px-8">
                     <h1 className="text-white text-4xl text-start uppercase">Don't be Shy!</h1>
                     <p className="text-[#76A6A5] text-lg text-justify my-6">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>

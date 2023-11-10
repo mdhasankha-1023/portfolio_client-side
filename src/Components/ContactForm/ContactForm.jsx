@@ -21,7 +21,7 @@ const ContactForm = () => {
     return (
 
         <form onSubmit={handleContactForm}>
-            <div className='flex flex-col lg:flex-row gap-10 my-10'>
+            <div className='flex flex-col lg:flex-row gap-10 mt-6 pb-16 lg:mb-0'>
                 <div className="w-full lg:w-[50%]">
                     {/* Name */}
                     <input type="text" name='name' className="nameInput shadow-sm bg-[#040C18] border border-[#33F5B3] text-white text-sm rounded-full w-full rounded-full py-4 px-6 text-xl px-6 focus:ring-[#33F5B3] focus:border-[#33F5B3] appearance-none" placeholder="YOUR NAME" required />
