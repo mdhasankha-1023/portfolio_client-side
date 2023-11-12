@@ -14,6 +14,19 @@ const ContactForm = () => {
         const message = form.message.value;
         const conInfo = { name, email, subject, message };
         console.log(conInfo);
+
+        fetch('https://portfolio-server-side-sand.vercel.app/email',{
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(conInfo)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(err => console.log(err.message))
     }
 
 

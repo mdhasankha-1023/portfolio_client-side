@@ -1,8 +1,9 @@
 import WebTitle from "../../../Components/WebTitle/WebTitle";
 import ProText from "../ProText/ProText";
 import './Home.css'
-
 const Home = () => {
+
+
     return (
         <div className="pt-16 pb-32 lg:pb-0">
             <WebTitle title={'Home'}></WebTitle>

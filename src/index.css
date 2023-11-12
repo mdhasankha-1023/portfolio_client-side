@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This is dark mood and light mood them style */
+.lightBackground{
+    background-color: white;
+}
+.lightTitle{
+    color: #53f5cc;
+}
+
+.darkBackground{
+    background-color: #040C18;
+}
+
