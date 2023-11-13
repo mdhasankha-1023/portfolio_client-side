@@ -11,12 +11,12 @@ const SocialMedia = () => {
                 </a>
             </div>
             <div className='text-white text-4xl  rounded-full cursor-pointer hover:text-[#00F3A1] flex items-center justify-center'>
-                <a target='_blank' href="https://github.com/mdhasankhan-123">
+                <a target='_blank' href="https://github.com/mdhasankha-1023">
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </a>
             </div>
             <div className='text-white text-4xl rounded-full cursor-pointer hover:text-[#00F3A1] flex items-center justify-center'>
-                <a target='_blank' href="https://www.linkedin.com/in/md-hasan-kha-39355427b/">
+                <a target='_blank' href="https://www.linkedin.com/in/md-hasan-kha-7a130129b/">
                     <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                 </a>
             </div>
