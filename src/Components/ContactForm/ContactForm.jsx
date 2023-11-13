@@ -1,6 +1,7 @@
 import React from 'react';
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 import PrimaryBtn from '../PrimaryBtn/PrimaryBtn';
+import Swal from 'sweetalert2';
 
 const ContactForm = () => {
 
@@ -13,7 +14,7 @@ const ContactForm = () => {
         const subject = form.subject.value;
         const message = form.message.value;
         const conInfo = { name, email, subject, message };
-        console.log(conInfo);
+        // console.log(conInfo);
 
         fetch('https://portfolio-server-side-sand.vercel.app/email',{
             method: 'POST',
@@ -25,6 +26,16 @@ const ContactForm = () => {
         .then(res => res.json())
         .then(data => {
             console.log(data);
+            if(data.status === 200){
+                Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Message send Successfully",
+                    showConfirmButton: false,
+                    timer: 1500
+                  });
+                  form.reset();
+            }
         })
         .catch(err => console.log(err.message))
     }

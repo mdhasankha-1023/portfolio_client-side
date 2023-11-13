@@ -22,7 +22,7 @@ const TabItems = ({ projects }) => {
             <TabPanel>
                 <div className='grid grid-cols-1 mx-4 lg:grid-cols-3 gap-8 lg:py-10'>
                     {
-                        projects.map(project =>
+                        projects?.map(project =>
                             <ProjectCard
                                 key={project._id}
                                 project={project}
