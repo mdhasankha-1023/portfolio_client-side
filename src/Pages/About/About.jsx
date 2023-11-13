@@ -53,7 +53,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full lg:w-[60%]">
-                    <p className="text-justify px-4 mt-8 lg:mt-0 lg:pr-24 leading-8 text-xl tracking-wider text-[#76A6A5]">I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                    <p className="text-justify px-4 mt-8 lg:mt-0 lg:pr-24 leading-8 text-xl tracking-wider text-[#76A6A5]">Hey there! I'm Hasan, a MERN Stack Developer on a mission to craft seamless and visually stunning web applications. My passion lies in the intricacies of coding, where every project is a canvas for innovation. Clean code, thoughtful design, and user-centric development are the pillars of my approach. I thrive on the continuous journey of learning and growth that web development offers. Let's collaborate and turn your ideas into something extraordinary! Explore my portfolio to get a glimpse of my digital journey.</p>
                 </div>
             </div>
             <div className="py-20 text-white">

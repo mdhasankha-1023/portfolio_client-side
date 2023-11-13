@@ -16,7 +16,7 @@ const ProText = () => {
                 <div className='flex justify-center lg:hidden'>
                     <img class="rounded-full w-[90%] h-38 flex justify-center border-4 border-[#757575]" src={avatar_pic} alt="Extra large avatar" />
                 </div>
-                <h1 className='text-3xl lg:text-4xl font-bold uppercase mt-6 lg:mt-0'>I'm Hasan kha </h1>
+                <h1 className='text-3xl lg:text-4xl font-bold uppercase my-4 lg:mt-0'>I'm Hasan kha </h1>
                 <TypeAnimation
                     sequence={[
                         'Front-End Developer',
@@ -28,7 +28,7 @@ const ProText = () => {
                     className='text-3xl lg:text-4xl font-bold text-[#00F3A1] leading-loose'
                     repeat={Infinity}
                 />
-                <p className='text-center lg:text-justify w-full lg:w-[80%] my-10 tracking-wide leading-10 text-lg lg:text-xl text-[#76A6A5]'>I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                <p className='text-center lg:text-justify w-full lg:w-[80%] mt-8 mb-12 tracking-wide leading-10 text-lg lg:text-xl text-[#76A6A5] tracking-wider'>Welcome to my portfolio! I'm Hasan, a MERN Stack Developer passionate about creating seamless and visually appealing web applications. Explore my projects to see how I bring ideas to life.</p>
                 <Link to={'/about'}>
                     <PrimaryBtn icon={faArrowRight} typeValue={'button'} text={'More About Me'}></PrimaryBtn>
                 </Link>
